@@ -478,7 +478,7 @@ h2 {
 .hero__container {
   display: flex;
   gap: 60px;
-  /* align-items: center; */
+  align-items: center;
   max-width: 1280px;
 }
 
