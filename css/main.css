@@ -461,7 +461,7 @@ h2 {
   position: relative;
   padding-top: 60px;
   background: none;
-  height: 100vh;
+  height: 90vh;
 }
 /* @media screen and (max-width: 1423.98px) {
   .hero {
@@ -551,7 +551,6 @@ h2 {
   font-size: 24px;
   color: #fff;
   font-weight: 400;
-  line-height: 1.33;
 }
 
 @media screen and (max-width: 640px) {
@@ -1072,8 +1071,25 @@ h2 {
 }
 
 /*# sourceMappingURL=main.css.map */
+@media screen and (max-width: 1023.98px) {
+  .about {
+    padding: 70px 50px 70px;
+    position: relative;
+    background: none;
+    margin-top: 200px;
+  }
+}
 
 @media screen and (max-width: 768px) {
+  .hero {
+  /* background-image: url(../7.gif); */
+  padding: 40px 0 50px 0;
+  position: relative;
+ 
+  background: none;
+  height: auto;
+  }
+}
   .dis {
     display: none;
   }
@@ -1082,9 +1098,16 @@ h2 {
     position: relative;
     background: none;
   }
-  .hero {
-    padding: 106px 0 45px 0;
+  .about {
+    padding: 70px 50px 70px;
+    position: relative;
+    background: none;
+    margin-top: 200px;
   }
+  .foot {
+    display: none;
+  }
+ 
   .buy {
     padding: 67px 0 0;
     position: relative;
@@ -1130,5 +1153,14 @@ h2 {
     font-size: 35vw;
     margin-top: 26px;
     line-height: 74px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about {
+    padding: 70px 50px 70px;
+    position: relative;
+    background: none;
+    margin-top: 100px;
   }
 }
